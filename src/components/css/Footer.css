@@ -1,0 +1,46 @@
+.section {
+    background-color: black;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.under-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.under-section p {
+    text-align: start;
+    font-size: 0.85rem;
+}
+
+.section-topic {
+    text-decoration: underline;
+    text-decoration-color: white;
+    width: 40%;
+}
+
+text {
+    color: white;
+    padding-left: 2.2rem;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+@media (orientation: landscape) {
+
+    .under-section {
+        width: 67%;
+    }
+
+    .section-topic {
+        width: 20%;
+    }
+
+    text {
+        margin: 0 15%;
+    }
+}

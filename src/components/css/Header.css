@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300,400,700&display=swap');
+
+.Header {
+    font-family: 'Lato', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.Header-top {
+    margin-top: 1.5rem;
+}
+
+.Header button {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.Header h1 {
+    color: rgb(229,9,20);
+}
+
+.Header strong {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+button {
+    background-color: rgb(229,9,20);
+    border-radius: 0.4rem;
+    border: none;
+    color: white;
+    padding: 0.5rem 0.9rem;
+    margin: 0;
+}
+
+@media (min-width: 650px) {
+    .Header{
+        width: 75%;
+        font-size: 1.25rem;
+    }
+}
